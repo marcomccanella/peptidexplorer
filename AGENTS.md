@@ -1,0 +1,7 @@
+- External scientific data belongs in the server modules under src/features/analysis/server/. The browser calls TanStack Start server functions; it does not contact scientific databases directly.
+- Keep the server-capable TanStack Start setup for local runs because peptide searches call external services from server functions.
+- Preserve the existing Git history; never rewrite published commits because the repository is mirrored.
+- Keep platform-specific startup launchers under launchers/windows, launchers/macos, and launchers/linux, with each starting from the repository root so a downloaded checkout works without moving files.
+- Use npm and package-lock.json for reproducible installation. Default local startup must bind only to 127.0.0.1; document intentional network exposure separately.
+- Do not treat a failed source request as an empty result, or biosafety level 1 alone as evidence that a species is commensal.
+- Keep beginner instructions in README.md and detailed reference material in docs/.

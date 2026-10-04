@@ -1,0 +1,559 @@
+[
+  {
+    "primaryAccession": "P00803",
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "value": "Signal peptidase I"
+        },
+        "shortNames": [
+          {
+            "value": "SPase I"
+          }
+        ],
+        "ecNumbers": [
+          {
+            "value": "3.4.21.89"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "Leader peptidase I"
+          }
+        }
+      ]
+    },
+    "organism": {
+      "scientificName": "Escherichia coli (strain K12)",
+      "taxonId": 83333,
+      "lineage": [
+        "Bacteria",
+        "Pseudomonadati",
+        "Pseudomonadota",
+        "Gammaproteobacteria",
+        "Enterobacterales",
+        "Enterobacteriaceae",
+        "Escherichia"
+      ]
+    },
+    "sequence": {
+      "value": "MANMFALILVIATLVTGILWCVDKFFFAPKRRERQAAAQAAAGDSLDKATLKKVAPKPGWLETGASVFPVLAIVLIVRSFIYEPFQIPSGSMMPTLLIGDFILVEKFAYGIKDPIYQKTLIETGHPKRGDIVVFKYPEDPKLDYIKRAVGLPGDKVTYDPVSKELTIQPGCSSGQACENALPVTYSNVEPSDFVQTFSRRNGGEATSGFFEVPKNETKENGIRLSERKETLGDVTHRILTVPIAQDQVGMYYQQPGQQLATWIVPPGQYFMMGDNRDNSADSRYWGFVPEANLVGRATAIWMSFDKQEGEWPTGLRLSRIGGIH",
+      "length": 324,
+      "molWeight": 35960,
+      "crc64": "9419710D7212E660",
+      "md5": "90522CFE810E9D803F7139007DD292C4"
+    },
+    "features": [
+      {
+        "type": "Transmembrane",
+        "location": {
+          "start": {
+            "value": 4,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 22,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Helical",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000305"
+          }
+        ]
+      },
+      {
+        "type": "Transmembrane",
+        "location": {
+          "start": {
+            "value": 59,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 77,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Helical",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000305"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21778229"
+                }
+              ],
+              "value": "Cell inner membrane",
+              "id": "SL-0037"
+            },
+            "topology": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21778229"
+                }
+              ],
+              "value": "Multi-pass membrane protein",
+              "id": "SL-9909"
+            }
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "id": "KW-0002",
+        "category": "Technical term",
+        "name": "3D-structure"
+      },
+      {
+        "id": "KW-0997",
+        "category": "Cellular component",
+        "name": "Cell inner membrane"
+      },
+      {
+        "id": "KW-1003",
+        "category": "Cellular component",
+        "name": "Cell membrane"
+      },
+      {
+        "id": "KW-1015",
+        "category": "PTM",
+        "name": "Disulfide bond"
+      },
+      {
+        "id": "KW-0378",
+        "category": "Molecular function",
+        "name": "Hydrolase"
+      },
+      {
+        "id": "KW-0472",
+        "category": "Cellular component",
+        "name": "Membrane"
+      },
+      {
+        "id": "KW-0645",
+        "category": "Molecular function",
+        "name": "Protease"
+      },
+      {
+        "id": "KW-1185",
+        "category": "Technical term",
+        "name": "Reference proteome"
+      },
+      {
+        "id": "KW-0812",
+        "category": "Domain",
+        "name": "Transmembrane"
+      },
+      {
+        "id": "KW-1133",
+        "category": "Domain",
+        "name": "Transmembrane helix"
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "eggNOG",
+        "id": "COG0681",
+        "properties": [
+          {
+            "key": "ToxonomicScope",
+            "value": "Bacteria"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "primaryAccession": "O07595",
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "HAMAP-Rule",
+              "id": "MF_01968"
+            },
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "19136592"
+            }
+          ],
+          "value": "NAD-dependent protein deacetylase"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "HAMAP-Rule",
+                "id": "MF_01968"
+              },
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "PROSITE-ProRule",
+                "id": "PRU00236"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19136592"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "39422507"
+              }
+            ],
+            "value": "2.3.1.286"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "39422507"
+              }
+            ],
+            "value": "NAD-dependent sirtuin deacylase"
+          }
+        },
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "HAMAP-Rule",
+                "id": "MF_01968"
+              },
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "19136592"
+              }
+            ],
+            "value": "Regulatory protein SIR2 homolog"
+          }
+        }
+      ]
+    },
+    "organism": {
+      "scientificName": "Bacillus subtilis (strain 168)",
+      "taxonId": 224308,
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Caryophanales",
+        "Bacillaceae",
+        "Bacillus"
+      ]
+    },
+    "sequence": {
+      "value": "METFKSILHEAQRIVVLTGAGMSTESGIPDFRSAGGIWTEDASRMEAMSLDYFLSYPRLFWPKFKELFQMKMSGSFEPNEGHLLLAELEKQGKQVDIFTQNIDGLHKKAGSRHVYELHGSIQTAACPACGARYDLPHLLEREVPECTAAGNNGDICGTVLKTDVVLFGDAVMHFDTLYEKLDQADLLLVIGTSLEVAPARFVPEDASLIPGMKKVIINLEPTYCDSLFDMVIHQKIGEFARSLGMKK",
+      "length": 247,
+      "molWeight": 27418,
+      "crc64": "8BAD6F797D3A99F7",
+      "md5": "BF1F2EEDE292786BEBDF4D94E86EAE84"
+    },
+    "features": [],
+    "comments": [
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000255",
+                  "source": "HAMAP-Rule",
+                  "id": "MF_01968"
+                }
+              ],
+              "value": "Cytoplasm",
+              "id": "SL-0086"
+            }
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "id": "KW-0963",
+        "category": "Cellular component",
+        "name": "Cytoplasm"
+      },
+      {
+        "id": "KW-0479",
+        "category": "Ligand",
+        "name": "Metal-binding"
+      },
+      {
+        "id": "KW-0520",
+        "category": "Ligand",
+        "name": "NAD"
+      },
+      {
+        "id": "KW-1185",
+        "category": "Technical term",
+        "name": "Reference proteome"
+      },
+      {
+        "id": "KW-0808",
+        "category": "Molecular function",
+        "name": "Transferase"
+      },
+      {
+        "id": "KW-0862",
+        "category": "Ligand",
+        "name": "Zinc"
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "eggNOG",
+        "id": "COG0846",
+        "properties": [
+          {
+            "key": "ToxonomicScope",
+            "value": "Bacteria"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "primaryAccession": "P00644",
+    "entryType": "UniProtKB reviewed (Swiss-Prot)",
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "value": "Thermonuclease"
+        },
+        "shortNames": [
+          {
+            "value": "TNase"
+          }
+        ],
+        "ecNumbers": [
+          {
+            "value": "3.1.31.1"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "value": "Micrococcal nuclease"
+          }
+        },
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "4324890"
+              }
+            ],
+            "value": "Staphylococcal nuclease"
+          }
+        }
+      ],
+      "contains": [
+        {
+          "recommendedName": {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "893427"
+                }
+              ],
+              "value": "Nuclease B"
+            }
+          }
+        },
+        {
+          "recommendedName": {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "893427"
+                }
+              ],
+              "value": "Nuclease A"
+            }
+          }
+        }
+      ],
+      "flag": "Precursor"
+    },
+    "organism": {
+      "scientificName": "Staphylococcus aureus",
+      "taxonId": 1280,
+      "lineage": [
+        "Bacteria",
+        "Bacillati",
+        "Bacillota",
+        "Bacilli",
+        "Caryophanales",
+        "Staphylococcaceae",
+        "Staphylococcus"
+      ]
+    },
+    "sequence": {
+      "value": "MLVMTEYLLSAGICMAIVSILLIGMAISNVSKGQYAKRFFFFATSCLVLTLVVVSSLSSSANASQTDNGVNRSGSEDPTVYSATSTKKLHKEPATLIKAIDGDTVKLMYKGQPMTFRLLLVDTPETKHPKKGVEKYGPEASAFTKKMVENAKKIEVEFDKGQRTDKYGRGLAYIYADGKMVNEALVRQGLAKVAYVYKPNNTHEQHLRKSEAQAKKEKLNIWSEDNADSGQ",
+      "length": 231,
+      "molWeight": 25471,
+      "crc64": "AD5558AA28E855D7",
+      "md5": "92473338AFEDAA7DDCF142B2B918C838"
+    },
+    "features": [
+      {
+        "type": "Signal",
+        "location": {
+          "start": {
+            "value": 1,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 26,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000255"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "molecule": "Nuclease A",
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "893427"
+                },
+                {
+                  "evidenceCode": "ECO:0000305",
+                  "source": "PubMed",
+                  "id": "4324890"
+                }
+              ],
+              "value": "Secreted",
+              "id": "SL-0243"
+            }
+          }
+        ]
+      },
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "molecule": "Nuclease B",
+        "subcellularLocations": [
+          {
+            "location": {
+              "value": "Membrane",
+              "id": "SL-0162"
+            }
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "id": "KW-0002",
+        "category": "Technical term",
+        "name": "3D-structure"
+      },
+      {
+        "id": "KW-0106",
+        "category": "Ligand",
+        "name": "Calcium"
+      },
+      {
+        "id": "KW-0903",
+        "category": "Technical term",
+        "name": "Direct protein sequencing"
+      },
+      {
+        "id": "KW-0255",
+        "category": "Molecular function",
+        "name": "Endonuclease"
+      },
+      {
+        "id": "KW-0378",
+        "category": "Molecular function",
+        "name": "Hydrolase"
+      },
+      {
+        "id": "KW-0472",
+        "category": "Cellular component",
+        "name": "Membrane"
+      },
+      {
+        "id": "KW-0479",
+        "category": "Ligand",
+        "name": "Metal-binding"
+      },
+      {
+        "id": "KW-0540",
+        "category": "Molecular function",
+        "name": "Nuclease"
+      },
+      {
+        "id": "KW-0964",
+        "category": "Cellular component",
+        "name": "Secreted"
+      },
+      {
+        "id": "KW-0732",
+        "category": "Domain",
+        "name": "Signal"
+      },
+      {
+        "id": "KW-0865",
+        "category": "PTM",
+        "name": "Zymogen"
+      }
+    ],
+    "uniProtKBCrossReferences": []
+  }
+]

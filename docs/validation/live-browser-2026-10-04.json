@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-04T08:57:15.711Z",
+  "origin": "http://127.0.0.1:8082",
+  "fixtureSeed": 20261004,
+  "passed": true,
+  "externalBrowserRequests": [],
+  "browserErrors": [],
+  "matchingProteinPairs": 41,
+  "visibleWarnings": [],
+  "status": ["4 of 4 protein searches completed."]
+}

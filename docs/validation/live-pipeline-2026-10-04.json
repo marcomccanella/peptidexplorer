@@ -1,0 +1,176 @@
+{
+  "checkedAt": "2026-10-04T08:52:43.174Z",
+  "fixtureSeed": 20261004,
+  "source": "https://rest.uniprot.org/uniprotkb/search",
+  "inputs": [
+    {
+      "peptide": "VTYDPVSKELTIQPGCSS",
+      "expectedAccession": "P00803",
+      "searchPassed": true,
+      "accessions": [
+        "P00803",
+        "A0A0H2VC21",
+        "A0A0H2Z1H5",
+        "A0A0H3EMC4",
+        "A0A2S4MZ99",
+        "A7ZQ12",
+        "B2TXY1",
+        "B7LDG1",
+        "B7LUZ6",
+        "B7MIQ3",
+        "B7UH08",
+        "Q3YYU8",
+        "Q8XA33"
+      ],
+      "hits": 13,
+      "warnings": []
+    },
+    {
+      "peptide": "DLPHLLEREVPECTAAGNNGDI",
+      "expectedAccession": "O07595",
+      "searchPassed": true,
+      "accessions": ["O07595", "A0ABU0V768"],
+      "hits": 2,
+      "warnings": []
+    },
+    {
+      "peptide": "DTPETKHPKKGVEKYGPEAS",
+      "expectedAccession": "P00644",
+      "searchPassed": true,
+      "accessions": [
+        "P00644",
+        "Q5HHM4",
+        "Q6GB41",
+        "Q6GIK1",
+        "Q7A6P2",
+        "Q8NXI6",
+        "Q99VJ0",
+        "A0A076JRM7",
+        "A0A076JWH6",
+        "A0A077V1P8",
+        "A0A0H2XHI2",
+        "A0A2Z5WA56",
+        "A0A5P6A8R8",
+        "A0A7U7JTM2",
+        "A0A8F5SIP9",
+        "A3QSR2",
+        "A3QSR3",
+        "A3QSR4",
+        "A3QSR5",
+        "A3QSR6",
+        "A3QSR7",
+        "A5A521",
+        "A5A523",
+        "A5A531",
+        "Q1WCB7",
+        "Q2G010"
+      ],
+      "hits": 26,
+      "warnings": []
+    },
+    {
+      "peptide": "FPYNHHEIGKPKHFIDFQQINCIKPNKKYMAAYMW",
+      "expectedAccession": null,
+      "searchPassed": true,
+      "accessions": [],
+      "hits": 0,
+      "warnings": []
+    }
+  ],
+  "downstream": [
+    {
+      "peptide": "VTYDPVSKELTIQPGCSS",
+      "accession": "P00803",
+      "reviewed": true,
+      "protein": "Signal peptidase I",
+      "organism": "Escherichia coli (strain K12)",
+      "species": "Escherichia coli",
+      "taxid": "83333",
+      "phylum": "Pseudomonadota",
+      "positions": "156-173",
+      "signal": false,
+      "inSignal": false,
+      "location": "Integral to membrane",
+      "cog": "Intracellular trafficking, secretion, and vesicular transport",
+      "passed": true
+    },
+    {
+      "peptide": "DLPHLLEREVPECTAAGNNGDI",
+      "accession": "O07595",
+      "reviewed": true,
+      "protein": "NAD-dependent protein deacetylase",
+      "organism": "Bacillus subtilis (strain 168)",
+      "species": "Bacillus subtilis",
+      "taxid": "224308",
+      "phylum": "Bacillota",
+      "positions": "134-155",
+      "signal": false,
+      "inSignal": false,
+      "location": "Cytoplasm",
+      "cog": "Posttranslational modification, protein turnover, chaperones",
+      "passed": true
+    },
+    {
+      "peptide": "DTPETKHPKKGVEKYGPEAS",
+      "accession": "P00644",
+      "reviewed": true,
+      "protein": "Thermonuclease",
+      "organism": "Staphylococcus aureus",
+      "species": "Staphylococcus aureus",
+      "taxid": "1280",
+      "phylum": "Bacillota",
+      "positions": "122-141",
+      "signal": true,
+      "inSignal": false,
+      "location": "Integral to membrane",
+      "cog": "Not in COGs",
+      "passed": true
+    }
+  ],
+  "classifications": [
+    {
+      "species": "Escherichia coli",
+      "category": "Potential Pathogenic",
+      "bsl": 2,
+      "bacdiveIds": [
+        4409, 4410, 4411, 4412, 4413, 4414, 4415, 4416, 4417, 4418, 4419, 4420, 4421, 4422, 4423,
+        4424, 4425, 4426, 4427, 4428, 4429, 4430, 4431, 4432, 4433, 4434, 4435, 4436, 4437, 4438,
+        4439, 4440, 4441, 4442, 4443, 4444, 4445, 4446, 4447, 4448, 4449, 4450, 4451, 4452, 4453,
+        4454, 4455, 4456, 4458, 4459
+      ],
+      "source": "BacDive",
+      "evidence": "Highest reported biosafety/risk level: 2; Human or animal pathogenicity reported for at least one strain",
+      "note": "Examined 50 of 1975 available BacDive strain records. Strain evidence does not establish the behavior of every member of this species. Biosafety/risk levels are containment designations, not a clinical diagnosis."
+    },
+    {
+      "species": "Bacillus subtilis",
+      "category": "Potential Pathogenic",
+      "bsl": 1,
+      "bacdiveIds": [
+        962, 963, 964, 965, 966, 967, 969, 970, 971, 972, 973, 974, 975, 976, 977, 978, 979, 980,
+        981, 982, 983, 984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998,
+        999, 1000, 1001, 1002, 1003, 1004, 1156, 1157, 1158, 1159, 1160, 1161, 1162, 1163
+      ],
+      "source": "BacDive",
+      "evidence": "Highest reported biosafety/risk level: 1; Human or animal pathogenicity reported for at least one strain",
+      "note": "Examined 50 of 292 available BacDive strain records. Strain evidence does not establish the behavior of every member of this species. Biosafety/risk levels are containment designations, not a clinical diagnosis."
+    },
+    {
+      "species": "Staphylococcus aureus",
+      "category": "Potential Pathogenic",
+      "bsl": 2,
+      "bacdiveIds": [
+        14444, 14445, 14446, 14447, 14448, 14449, 14450, 14451, 14452, 14453, 14454, 14455, 14456,
+        14457, 14458, 14459, 14460, 14461, 14462, 14463, 14464, 14465, 14466, 14467, 14468, 14469,
+        14470, 14471, 14472, 14473, 14474, 14475, 14476, 14477, 14478, 14479, 14480, 14481, 14482,
+        14483, 14484, 14485, 14486, 14487, 14488, 14489, 14490, 14491, 14492, 14493
+      ],
+      "source": "BacDive",
+      "evidence": "Highest reported biosafety/risk level: 2; Human or animal pathogenicity reported for at least one strain",
+      "note": "Examined 50 of 506 available BacDive strain records. Strain evidence does not establish the behavior of every member of this species. Biosafety/risk levels are containment designations, not a clinical diagnosis."
+    }
+  ],
+  "errors": [],
+  "fullSearchPassed": true,
+  "classificationWarnings": []
+}
