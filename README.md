@@ -1,4 +1,4 @@
-# Bacterial Beacon
+# Peptide Explorer
 
 Find bacterial proteins that contain your peptide sequences, explore their taxonomy, and review available pathogenicity evidence. Download matched proteins as CSV and charts as PNG.
 
